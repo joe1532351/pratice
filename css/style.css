@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0嚚�20110126License: none (public domain)
+css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+body{
+    font-style: normal;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+/*css rest end*/
+
+.wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.pd{
+	padding: 0 18px;
+}
+.clearfix:after{
+	content:'';
+	display:table;
+	clear:both;
+  }
+/*header*/
+.nav{
+	height: 38px;
+	background: #f6f6f6;
+	padding: 5px;
+}
+.nav>ul{
+	font-size: 15px;
+	display: flex;
+	float: right;
+}
+.nav>ul>li {
+	padding: 5px 10px;
+	font-size:16px;
+}
+.nav>ul>li>a>img{
+	margin-right: 5px;
+}
+.fb-link{
+	border-right: 1px solid #ccc ;
+}
+.fb-link a{
+	color: #4460a0;
+}
+.twi-link a{
+	color: #00aaec;
+}
+/*menu*/
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+.menu>ul {
+	display: flex;
+	justify-content: space-between;
+}
+.menu>ul>li>a{
+	font-size: 16px;
+	padding: 20px;
+	  display: block;
+	  color: #00cc99;
+	  transition: 0.2s;
+	  border-bottom: 5px solid transparent;
+}
+.menu>ul>li>a:hover{
+	border-bottom: 5px solid #01B468;
+}
+.menu>img{
+	height: 50px;
+}
+/*banner*/
+.banner{
+	background: url(/images/banner.png) no-repeat;
+	height: 346px;
+}
+.slogan-b{
+	background:rgba(0,0,0,0.1);
+	color: #FFF;
+	font-size: 28px;
+	line-height: 40px;
+	position: relative;
+	padding: 30px;
+	top: 100px;
+}
+/*intro*/
+.intro{
+	display: flex;
+	justify-content: space-between;
+	margin: 60px 0;
+}
+.card{
+	width: 32%;
+	height: auto;
+	border: 1px #ccc solid;
+	padding: 20px;
+	box-shadow:0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.img-box{
+	text-align: center;
+	height: 150px;
+}
+.card>h2{
+	font-size: 20px;
+	text-align: center;
+}
+.card>p{
+	margin-top: 10px;
+	line-height: 22px;
+	font-size: 15px;
+}
+/*table*/
+.table{
+	padding: 0 60px 60px;
+}
+.table-box{
+	margin: 0 auto;
+	width: 100%;
+}
+.table>h3{
+	font-size: 24px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.table tr{
+	display: flex;
+	justify-content: space-between;
+	border-bottom:1px #ccc solid;
+}
+.table th,td{
+	width: 20%;
+	text-align: left;
+	font-size: 16px;
+	padding: 10px;
+}
+.title{
+	background: #f7f7f7;
+}
+.gr-color{
+	color: #42b392;
+}
+/*form*/
+.form-bg{
+	background: linear-gradient(#014332,#009871);
+	color: #FFF;
+	padding-bottom: 30px;
+}
+.form-bg h3{
+	font-size: 22px;
+	line-height: 40px;
+	text-align: center;
+	padding: 35px 0;
+}
+.form{
+	display: flex;
+	justify-content: space-between;
+	height: 250px;
+}
+.form-l,.form-r{
+	width: 48%;
+}
+.form-r input,label{
+	width: 100%;
+	height: 35px;
+}
+.msg-box{
+	width: 100%;
+	height: 100%;
+}
+.form-r input{
+	margin: 5px 0 15px 0;
+	padding-left: 10px;
+}
+#submit{
+	width: 70px;
+	height: 30px;
+	float: right;
+	color: #FFF;
+	background: #00cc99;
+	border: none;
+	border-radius: 2px;
+}
+/*footer*/
+.footer{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer>img{
+	height: 36px;
+}
+.footer>ul>li{
+	margin-bottom: 15px;
+}
+.r-color{
+	color: #e12d80;
+}
+
+
+@media (max-width: 767px){
+}
