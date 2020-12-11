@@ -67,7 +67,6 @@ a {
 .nav{
 	background: #f6f6f6;
 	padding: 5px;
-	overflow: hidden;
 }
 .nav>ul{
 	font-size: 15px;
@@ -208,7 +207,6 @@ a {
 .form{
 	display: flex;
 	justify-content: space-between;
-	overflow: hidden;
 }
 .form>textarea{
   	width: 48%;
@@ -262,4 +260,3 @@ a {
 .footer-contact:hover{
 	color: #ff9224;
 }
-
