@@ -115,9 +115,15 @@ a {
 .menu>ul>li>a:hover{
 	border-bottom: 5px solid #01B468;
 }
-.menu>img{
+.logo a{
+	width: 200px;
 	height: 50px;
-}
+	display: block;
+    background: url(../images/logo.png) no-repeat; 
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 /*banner*/
 .banner{
 	background: url(../images/banner.png) no-repeat;
